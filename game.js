@@ -13,8 +13,6 @@ Snake = []
 var SnakeX = 0, SnakeY = 0;
 var Events = []
 var FPS = 10
-
-
 var Add = 0
 var dFPS = 0
 var HeadPositionIndex = 0;
