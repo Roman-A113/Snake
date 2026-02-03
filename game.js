@@ -4,12 +4,17 @@ var CellSize = 50;
 var NumberCells = 15;
 var AppleX = 0, AppleY = 0
 var PosX = 0, PosY = 0;
+
+
+
 var dx = 0, dy = 0
 var curEvent = "";
 Snake = []
 var SnakeX = 0, SnakeY = 0;
 var Events = []
 var FPS = 10
+
+
 var Add = 0
 var dFPS = 0
 var HeadPositionIndex = 0;
