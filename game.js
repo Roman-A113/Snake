@@ -1,14 +1,9 @@
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 var CellSize = 50;
-
-
 var NumberCells = 15;
 var AppleX = 0, AppleY = 0
 var PosX = 0, PosY = 0;
-
-
-
 var dx = 0, dy = 0
 var curEvent = "";
 Snake = []
@@ -19,13 +14,9 @@ var Add = 0
 var dFPS = 0
 var HeadPositionIndex = 0;
 var AppleImage = new Image()
-
-
-
 AppleImage.src = 'images/apple.png'
 var SnakeBodyImage = new Image()
 SnakeBodyImage.src = 'images/snake_body.png'
-
 var HeadPositionImages = [new Image(), new Image(), new Image(), new Image()]
 
 HeadPositionImages[0].src = 'images/snake_head_up.png'
