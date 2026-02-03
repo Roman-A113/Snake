@@ -1,6 +1,8 @@
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 var CellSize = 50;
+
+
 var NumberCells = 15;
 var AppleX = 0, AppleY = 0
 var PosX = 0, PosY = 0;
