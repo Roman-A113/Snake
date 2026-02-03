@@ -19,6 +19,9 @@ var Add = 0
 var dFPS = 0
 var HeadPositionIndex = 0;
 var AppleImage = new Image()
+
+
+
 AppleImage.src = 'images/apple.png'
 var SnakeBodyImage = new Image()
 SnakeBodyImage.src = 'images/snake_body.png'
